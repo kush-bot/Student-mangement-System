@@ -1,0 +1,48 @@
+.home_body
+{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.profile
+{   
+    display: flex;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.dashboard
+{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.calender
+{
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.events
+{
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.gallery
+{
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.assignment
+{
+    margin-top: 1%;
+    margin-left: 12%;
+}
+
+.profile_lbl
+{
+    margin-top: 10%;
+}
