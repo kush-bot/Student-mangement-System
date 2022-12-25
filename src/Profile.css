@@ -1,0 +1,443 @@
+.profile
+{
+ display: flexbox;
+ place-items: center;
+   
+ background-color: #D5D8DC;
+}
+
+
+
+.profile_body
+{
+    width: 98%;
+    margin: 10%;
+    margin-left: 1%!important;
+    margin-right: 0.1%!important;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+    background-color:  #ffff !important;
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156) ;
+    display:flexbox;
+  
+   
+}
+
+h1
+{
+    background-color: white;
+}
+
+.myprofile
+{
+    display: flex;
+    font-size: 23.5px;
+    padding-top: 10px;
+    margin-left: 2.5%;
+}
+
+.myprofile label
+{
+    padding-top: 4px;
+    padding-left: 4px;
+    font-weight: 500;
+}
+
+
+.first_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+    width: 20%;
+    font-size: 20px;
+    color: blue;
+
+}    
+
+.second_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 20%;
+} 
+
+.first_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color: black;
+}
+
+.second_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color: black;
+
+}
+
+.second_text label
+{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+
+.first_text label
+{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+
+.first_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+
+.third_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+    width: 20%;
+
+} 
+
+.fourth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 20%;
+}
+
+.second_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+
+.third_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color: black;
+}
+
+.fourth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color:black;
+}
+
+.third_text label
+{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+
+.fourth_text label
+{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+.third_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+.fifth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+    width: 20%;
+
+} 
+.fifth_text label{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+
+.sixth_text label
+{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+.eighth_text label{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+.ninth_text label{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+.seventh_text label{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+.tenth_text label{
+    font-size: 18px;
+    color:rgb(37, 35, 35);
+}
+
+.sixth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 20%;
+}
+
+
+.fifth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color: black;
+}
+
+
+.sixth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color: black;
+}
+
+.fourth_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+
+.seventh_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 20%;
+} 
+
+.eighth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    width: 20%;
+} 
+
+.ninth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 20%;
+} 
+.seventh_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color: black;
+}
+.eighth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 16px;
+    color:black;
+}
+.ninth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background:white;
+    font-size: 16px;
+    color: black;
+}
+
+.tenth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 17px;
+    color: black;
+}
+.eleventh_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 17px;
+}
+.twelvth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background: white;
+    font-size: 17px;
+}
+.fifth_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+
+.tenth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 20%;
+    padding-bottom: 20px;
+} 
+
+.eleventh_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    width: 20%;
+} 
+
+.twelvth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%!important;
+    width: 20%;
+} 
+
+.sixth_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+
+.thirteenth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 20%;
+} 
+
+.fourteenth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    width: 20%;
+} 
+
+.fifteenth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 20%;
+} 
+.thirteenth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    background:white;
+    font-size: 17px;
+}
+.fourteenth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+}
+.fifteenth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+}
+
+.seventh_row
+{
+    display: flex;
+    padding-top: 40px;
+}
+
+.sixteenth_text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 20%;
+}
+
+.sixteenth_text input
+{
+    padding-top: 8px;
+    margin-left:5% ;
+    border-radius: 6px;
+    margin-right:1% ;
+    padding-bottom: 8px;
+    margin-bottom: 10%;
+} 

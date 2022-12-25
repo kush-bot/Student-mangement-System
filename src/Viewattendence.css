@@ -1,0 +1,166 @@
+.View_attendence{
+    display: flexbox;
+    height: 160vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.top_div{
+    width: 95%;
+    margin-left: 2%;
+    background: white;
+    
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156) ;
+}
+
+.Viewattendenceimg{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.View_attendence h2{
+    margin-left:5%;
+    margin-top: -3.5%;
+    color: black;
+    background: none;
+    font-size:25px
+}
+
+.top_div_info h1{
+    padding-top: 3.5%;
+    margin-left: 20%;
+    padding-bottom: 3.5%;
+    text-decoration: none;
+}
+.table_info{
+    margin-top: 2.5%!important;
+    width: 95%;
+    margin-left: 2%;
+    background: white;
+    margin-top: 3%;
+    border-radius: 15px;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156) ;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    
+    
+}
+
+table{
+    margin-left: 5%;
+    
+}
+.first_col {
+    width: 35% !important;;
+    border:1px solid black;
+    padding:6px;
+    text-align: left;
+    background: rgb(170, 103, 233);
+    color:white;
+    justify-content: start;
+
+
+}
+
+.second_col{
+    width:5%!important;
+    background: none!important;
+    border:1px solid black;
+    text-align: center;
+    padding:6px;
+    border-bottom: none;
+    font-size:18px;
+}
+
+.third_col{
+    width:15%!important;
+    background: none!important;
+    border:1px solid black;
+    text-align: center;
+    padding:6px;
+    border-top: none;
+}
+
+
+.fourth_col{
+    width:35%!important;
+    background: rgb(170, 103, 233)!important;
+    border:1px solid black;
+    text-align: left;
+    padding:6px;
+    border-bottom: none;
+    font-size:18px;
+    color:white;
+}
+
+.fifth_col{
+    width:5%!important;
+    background: none!important;
+    border:1px solid black;
+    text-align: center;
+    padding:6px;
+    border-bottom: none;
+    font-size:18.6px;
+}
+
+.sixth_colum{
+    width:35%;
+    text-align: left;
+    font-size: 17px;
+    padding-left: 10px;
+    color:white;
+    background-color: rgb(170, 103, 233)!important;
+    border:1px solid black;
+}
+
+.seventh_col{
+    width: 18.6%;
+    border: 1px solid black;
+    border-top: none;
+    padding-bottom:9px ;
+}
+
+.lab1_col{
+    width:16.5%;
+    text-align: center;
+    font-size: 17px;
+    padding-left: 10px;
+    color:black;
+    border:1px solid black;
+    border-bottom: none;
+    
+    
+    
+
+}
+.lab1_col1{
+    width:5%!important;
+    background: none!important;
+    border:1px solid black;
+    text-align: center;
+    padding:6px;
+    border-top: none;
+    font-size:18.6px;
+}
+.lab2_col{
+    width:13%!important;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 10px;
+    color:black;
+    border:1px solid black;
+    border-bottom: none;
+}
+
+.lab2_col1{
+    
+    background: none!important;
+    border:1px solid black;
+    text-align: center;
+    padding:6px;
+    border-top: none;
+    font-size:18.6px;
+}

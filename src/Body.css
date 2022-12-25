@@ -1,48 +1,164 @@
 .home_body
 {
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    height:82vh;
+
   
 }
 
-.profile
+
+.Profile
+
 {   
-    display: flex;
-    margin-top: 1%;
-    margin-left: 3%;
-}
-.dashboard
-{
-    margin-top: 1%;
-    margin-left: 10%;
+   
+    margin-top: 0%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
 }
 
-.calender
+
+.MyDashboard
 {
-    margin-top: 1%;
-    margin-left: 15%;
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
 }
 
-.events
+.Events
 {
-    margin-top: 1%;
-    margin-left: 15%;
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
 }
 
-.gallery
+
+.Notice
 {
-    margin-top: 1%;
-    margin-left: 15%;
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
 }
 
-.assignment
+
+.MyCalender
 {
-    margin-top: 1%;
-    margin-left: 12%;
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
 }
 
-.profile_lbl
+
+.Viewattendence
 {
-    margin-top: 10%;
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
 }
+
+.ManageStudentRegistration
+{
+   margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+
+.institutionalCalender
+{
+   margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+
+.SemesterResults
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+
+
+.ViewPerformanceDetails
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+    padding-bottom: 2%;
+}
+
+.AssignmentDetails
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.Instructions
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.Downloads
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.PhotoGallery
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.institutionalholidays
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.Examtimetable
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+
+.TimeTable
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.SyllabusSubjectView
+{
+
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.alerts_home
+{
+    margin-top: 4%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+

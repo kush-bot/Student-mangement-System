@@ -1,0 +1,40 @@
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background: white;
+    position:bottom;
+    bottom: 0;
+ 
+  
+   
+  
+    
+}
+.lbl
+{
+    margin-left: 5px;
+    margin-top:4px ;
+    background-color:white;
+}
+
+.footer_left
+{
+    display: flex;
+    margin-left: 1%;
+    background-color:white ;
+   
+}
+
+.footer_right
+{
+    
+    margin-right: 18px;
+    cursor: pointer;
+    color: black;
+    display: flexbox;
+    background-color:white ;
+   
+}
