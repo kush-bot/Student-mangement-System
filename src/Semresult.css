@@ -1,0 +1,39 @@
+.semresult{
+    display: flexbox;
+    width: 100%;
+    height:100%;
+}
+
+.semres_img{
+    margin-left:2%;
+    margin-top: 2%;
+}
+
+.semresult h2{
+    font-size: 25px;
+    margin-left:5.5%;
+    margin-top: -3.3%;
+    text-decoration: none;
+    background:none;
+    color: black;
+
+}
+
+.semresult_body{
+    width: 95%;
+    margin-left: 2%;
+    background: white;
+    border-radius: 15px; 
+    margin-top: 2%;
+    font-size:15px;
+    box-shadow: 0 2.188em 2.550em rgb(156, 156, 156) ;
+    height:80%;
+    padding-top: 25px;
+    height: 70vh;
+    margin-bottom: 2%;
+
+}
+
+.semresult_body h1{
+    margin-left: 2%;
+}

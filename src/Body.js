@@ -13,11 +13,11 @@ import Viewattendence from './/images/Viewattendence.png';
 import SemesterResults from './/images/SemesterResults.png';
 
 
-import ExamTimeTable from './/images/ExamTimeTable.png';
+import ExamTimeTable_img from './/images/ExamTimeTable.png';
 import SyllabusSubjectView from './/images/SubjectSyllabusView.png'; 
 import alerts from './/images/Alerts.png';
 import MyDashboard from './/images/MyDashboard.png';
-import Events from './/images/Events.png';
+
 import Downloads from './/images/Downloads.png';
 import PhotoGallery_img from './/images/PhotoGallery.png';
 import ViewPerformanceDetails from './/images/ViewPerformanceDetails.png';
@@ -25,6 +25,9 @@ import TimeTable from './/images/TimeTable.png';
 import Alerts from './Alerts'
 import ViewattendenceInfo from './Viewattendence'
 import PhotoGallery from './PhotoGallery'
+import Semresult from './Semresult'
+import ExamTimeTable from './ExamTimeTable'
+import PerformenceDetails from './PerformenceDetails'
 
 
 
@@ -38,7 +41,7 @@ function Body() {
                 
                <img src={MyDashboard} className={"MyDashboard"} alt={MyDashboard} height={170} width={170}/>
 
-               <img src={Events} className={"Events"} alt={Events} height={170} width={170}/>
+               
 
               
 
@@ -50,9 +53,9 @@ function Body() {
 
               
  
-               <img src={SemesterResults} className={"SemesterResults"} alt={SemesterResults} height={170} width={170}/>
+               <a href='./Semresult'><img src={SemesterResults} className={"SemesterResults"} alt={SemesterResults} height={170} width={170}/></a>
 
-               <img src={ViewPerformanceDetails} className={"ViewPerformanceDetails"} alt={ViewPerformanceDetails} height={170} width={170}/>
+               <a href='./PerformenceDetails'><img src={ViewPerformanceDetails} className={"ViewPerformanceDetails"} alt={ViewPerformanceDetails} height={170} width={170}/></a>
 
                
                
@@ -64,7 +67,7 @@ function Body() {
 
               
 
-               <img src={ExamTimeTable} className={"Examtimetable"} alt={ExamTimeTable} height={170} width={170}/>
+               <a href='./ExamTimeTable'><img src={ExamTimeTable_img} className={"Examtimetable"} alt={ExamTimeTable} height={170} width={170}/></a>
 
                <img src={TimeTable} className={"TimeTable"} alt={TimeTable} height={170} width={170}/>
 

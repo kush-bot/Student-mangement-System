@@ -43,7 +43,13 @@ const profileData = new Schema({
         data:Buffer,
         contentType:String
 
-    }
+    },
+    username:{
+        type:String,
+        required:true
+    },
+    
+
 
 
 }, { timestamps: true })

@@ -1,5 +1,6 @@
 const profileData = require('../stdProfile')
 const mongoose = require('mongoose')
+const userdata = require('../userModel')
 
 const getprofileInfo = async(req,res)=>{
     const {id} = req.params
@@ -11,6 +12,17 @@ const getprofileInfo = async(req,res)=>{
         return res.status(404).json({msg:"no such profile"})
     }
     res.status(200).json(profileinfo)
+}
+
+const getloginfo = async (req,res) =>{
+    const {username} = req.headers
+    
+    const logdata = await userdata.findOne({username:req.body.username});
+    if(!logdata){
+        return res.status(404).json({msg:"no such profile"})
+    }
+    res.status(200).json(logdata)
+    
 }
 
 const createProfile = async(req,res)=> {
@@ -25,5 +37,6 @@ const createProfile = async(req,res)=> {
 }
 module.exports={
     createProfile,
-    getprofileInfo
+    getprofileInfo,
+    getloginfo
 }

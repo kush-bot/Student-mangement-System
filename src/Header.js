@@ -5,25 +5,45 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 import MenuIcon from '@mui/icons-material/Menu';
 import Logo from '../../projects/src/logo.png';
 import {useEffect,useState} from 'react';
+import {useAuthContext }from './hooks/useAuthContext' 
 
 
 
 
 function Header() {
   const [profileinfo ,setProfileinfo] = useState(String)
+  const [usrdata ,setusrdata] = useState(String)
+  const {user} = useAuthContext
   useEffect (() =>{
-      const fetchprofileinfo = async () =>{
-          const res = await fetch('/project/home/profile/63a4e5bba56d37a9b2b3714b')
-          const json = await res.json()
-          console.log(profileinfo)
-
-          if(res.ok){
-              setProfileinfo(json)
-
-          }
+    var name = localStorage.getItem("user")
+      name = JSON.parse(name);
+      console.log(name.username) 
+      if(name.username== '21CS406'){
+          var id = '63a4e5bba56d37a9b2b3714b';
       }
-      fetchprofileinfo()
-  },[])
+      else if(name.username== '21CS404')
+      {
+          var id = '63a4e5bba56d37a9b2b3714b';
+      }
+      else if(name.username== '20CS36')
+      {
+          var id = '63a4ea85a56d37a9b2b3714d';
+      }
+ 
+  var defaultpath= '/project/home/profile/';
+  var fetchlink = defaultpath+id;
+  const fetchprofileinfo = async () =>{
+      const res = await fetch(fetchlink)
+      const json = await res.json()
+      console.log(profileinfo)
+
+      if(res.ok){
+          setProfileinfo(json)
+
+      }
+  }
+  fetchprofileinfo()
+},[])
   return (
     <div className="header">
 

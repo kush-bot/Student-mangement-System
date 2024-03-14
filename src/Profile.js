@@ -8,7 +8,21 @@ function Profile() {
     const [profileinfo ,setProfileinfo] = useState(String)
     const [attendeceinfo,setattendeceinfo] = useState(Number)
     useEffect (() =>{
-        var id = '63a4e5bba56d37a9b2b3714b';
+          var name = localStorage.getItem("user")
+            name = JSON.parse(name);
+            console.log(name.username) 
+            if(name.username== '21CS406'){
+                var id = '63a4e5bba56d37a9b2b3714b';
+            }
+            else if(name.username== '21CS404')
+            {
+                var id = '63a4e5bba56d37a9b2b3714b';
+            }
+            else if(name.username== '20CS36')
+            {
+                var id = '63a4ea85a56d37a9b2b3714d';
+            }
+       
         var defaultpath= '/project/home/profile/';
         var fetchlink = defaultpath+id;
         const fetchprofileinfo = async () =>{
@@ -88,7 +102,7 @@ function Profile() {
                 <div className="fifth_row">
                     <div className="tenth_text">
                         <label>Adhar Number :</label>
-                        <input type="text" value={profileinfo.fname} name="firstname" disabled></input>
+                        <input type="text" value={profileinfo.AdrNo} name="firstname" disabled></input>
                     </div>
               
                 </div>

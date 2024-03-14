@@ -9,8 +9,34 @@ import Logo from '/home/kush/Desktop/projects/src/logo.png';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIconforlog from '@mui/icons-material/GitHub';
 
+import {useLogin} from './hooks/useLogin'
+import {useEffect,useState} from 'react';
 
-function Login() {
+
+const Login=() =>{
+    const [user,setUser] = useState('')
+    const [password, setPassword] = useState('')
+    const {login,error,isLoading} = useLogin()
+
+    const handleSubmit = async(e) =>{
+
+        e.preventDefault()
+
+        console.log(user,password)
+        const res = await login(user,password);
+       
+      
+       
+       
+      
+
+    }
+   
+    
+  
+    
+
+
     return (
         <div className="container">
             
@@ -33,34 +59,30 @@ function Login() {
                 </div>
         
          
-            <form id="form" action="/"> 
+            <form id="form" onSubmit={handleSubmit}> 
            <a href="https://ssit.edu.in/"><img src={Logo} className="Logo" alt="logo" /></a>
             <h1>Sign in to Site</h1>         
                 <div className="input-ctrl">
                     <label className="username"><PersonIcon style={{background:'#ffff'}} />&nbsp;</label>
-                    <input id="username" name="username" type="text" placeholder="username" required></input>
+                    <input id="username" name="username1" onChange={(e)=>setUser(e.target.value)} value={user} type="text" placeholder="username" required></input>
                 </div>
                 <div className="input-ctrl">
                     <label className="password"><LockIcon style={{background:'#ffff'}}/>&nbsp;</label>
-                    <input id="password" name="password" autocomplete="off" type="password" placeholder="password" required></input>
+                    <input id="password" name="password"   type="password" onChange={(e)=>setPassword(e.target.value)} value={password} placeholder="password" required></input>
                 </div>
              
                 <a  className="frt-pass"  href="/">forgot password?</a>   
-                 <button type="submit">LOGIN    </button>
+                 <button>LOGIN </button>
+                 {error &&<div className='error'>{error}</div>}
+           
              </form>
                
-                
-                 
-                 
-                
-                    
+            </div>
 
-                   
-
-            
-        </div>
-
+           
     )
+
+
 }
 
 export default Login
